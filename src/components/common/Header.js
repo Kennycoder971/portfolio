@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
-export default function Header() {
+export default function Header({ onClickOpenNav }) {
   return (
     <header className="header">
       <div className="logo">DK</div>
@@ -9,19 +9,23 @@ export default function Header() {
           <a href="/" className="link">
             portfolio
           </a>
+        </li>
+        <li className="menu-link">
           <a href="/competences" className="link">
             compétences
           </a>
+        </li>
+        <li className="menu-link">
           <a href="/contact" className="link">
             contact
           </a>
         </li>
       </ul>
 
-      <div className="toggle-btn">
-        <div className="line-1"></div>
-        <div className="line-2"></div>
-        <div className="line-3"></div>
+      <div className="toggle-btn" onClick={onClickOpenNav}>
+        <div className="line-1 line"></div>
+        <div className="line-2 line"></div>
+        <div className="line-3 line"></div>
       </div>
     </header>
   );
