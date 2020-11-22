@@ -1,0 +1,11 @@
+{
+    "folders": [],
+    "settings": {},
+    "[javascript]": {
+      "editor.formatOnSave": true
+    },
+    "emmet.extensionsPath": "",
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+   }
+  }
