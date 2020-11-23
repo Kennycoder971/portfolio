@@ -1,0 +1,59 @@
+.ellipse-1 {
+   top: 10%;
+   left: 10%; 
+}
+
+.ellipse-2 {
+    bottom: 10%;
+    right: 10%; 
+}
+
+.triangle {
+    left: 50%;
+    bottom: 20%;
+}
+
+.rect-1 {
+    right: 40%;
+    top: 20%;
+}
+
+.rect-2 {
+    right: 40%;
+    top: 50%;
+    transform: rotate(40deg);
+
+}
+
+.rect-3 {
+    left: 20%;
+    bottom: 30%;
+    transform: rotate(-40deg);
+    
+}
+.rect-4 {
+    top: 10%;
+    right: 20%;
+}
+
+.vector {
+    left: 20%;
+    bottom: 10%;
+}
+
+@media (max-width:500px) {
+    .rect-2 {
+        display: none;
+    }
+    .rect-3 {
+        display: none;
+    }
+
+    .vector {
+        display: none;
+    }
+
+    .triangle {
+        left: 10%;
+    }
+}

@@ -1,5 +1,90 @@
 .home {
-    min-height: calc(100vh - 50px);
-
+    height: calc(100vh - 50px - 15rem);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     
+    .home-text {
+        margin-top: 15rem;
+        
+        .author-name {
+            color: $gray;
+            font-size: $ml-size;
+            margin-bottom: .2rem;
+        }
+
+        .author-job {
+            color: $blue;
+            margin-bottom: $m-size;
+        }
+
+        .long-blue-line {
+            background-color: $blue;
+            display: inline-block;
+            height: 1px;
+            width: 70px;
+            margin-left: $m-size;
+        }
+
+        .author-welcome {
+            font-size: $l-size;
+            margin-bottom: $m-size;
+            line-height: 1.2;
+        }
+
+        .author-message {
+            margin-bottom: $m-size;
+        }
+    }
+
+    .svg-shape {
+        margin-top: 12rem;
+    }
+}
+
+
+@media (max-width:800px) {
+    .home {
+
+        .home-text {
+            margin-top: 5rem;
+        }
+        .svg-shape {
+            margin-top: 5rem;
+            svg {
+                width: 250px;
+            }
+        }
+    }
+}
+
+@media (max-width:600px) {
+    .home {
+        display: block;
+
+        .home-text {
+            margin-top: 2rem;
+            
+            .author-name {
+                font-size: $m-size;
+            }
+            .author-welcome {
+                font-size: $ml-size;
+            }
+            .author-message {
+                font-size:1.4rem;
+            }
+
+        }
+
+        .svg-shape {
+            margin: 2rem auto;
+            display: flex;
+            justify-content: center;
+
+            svg {
+                width: 250px;
+            }
+        }
+    }
 }

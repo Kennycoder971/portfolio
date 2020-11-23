@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function Contact() {
+export default function Portfolio() {
   return <div></div>;
 }

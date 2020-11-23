@@ -2,28 +2,29 @@ import React from "react";
 import CodeIcon from "./svg/CodeIcon";
 import ContactIcon from "./svg/ContactIcon";
 import SkillIcon from "./svg/SkillIcon";
+import { NavLink } from "react-router-dom";
 
-export default function Navbar({ isNavOpen }) {
+export default function Navbar() {
   return (
-    <nav className={isNavOpen ? "responsive-nav active" : "responsive-nav"}>
+    <nav className="responsive-nav active  move-left delay-1">
       <ul className="responsive-nav-menu">
         <li className="responsive-menu-item">
-          <a href="/" className="responsive-menu-link">
+          <NavLink to="/portfolio" className="responsive-menu-link">
             <CodeIcon />
-            <span>portfolio work</span>
-          </a>
+            <span>portfolio </span>
+          </NavLink>
         </li>
         <li className="responsive-menu-item">
-          <a href="/" className="responsive-menu-link">
+          <NavLink to="/competences" className="responsive-menu-link">
             <SkillIcon />
             <span>compétences</span>
-          </a>
+          </NavLink>
         </li>
         <li className="responsive-menu-item">
-          <a href="/" className="responsive-menu-link">
+          <NavLink to="/contact" className="responsive-menu-link">
             <ContactIcon />
             <span>contact</span>
-          </a>
+          </NavLink>
         </li>
       </ul>
     </nav>

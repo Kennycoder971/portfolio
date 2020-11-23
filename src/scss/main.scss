@@ -1,11 +1,14 @@
 @import './base/settings';
 @import './base/reset';
 @import './base/typography';
+@import './base/animations';
 
 @import './components/button';
 @import './components/container';
+@import './components/mask';
 
 @import './layout/header';
 @import './layout/responsive-navbar';
+@import './layout/svg-bg';
 
 @import './pages/home';

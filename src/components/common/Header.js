@@ -1,24 +1,27 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Header({ onClickOpenNav }) {
   return (
-    <header className="header">
-      <div className="logo">DK</div>
+    <header className="header move-bottom">
+      <div className="logo">
+        <NavLink to="/">DK</NavLink>
+      </div>
       <ul className="menu">
         <li className="menu-link">
-          <a href="/" className="link">
+          <NavLink to="/portfolio" className="link">
             portfolio
-          </a>
+          </NavLink>
         </li>
         <li className="menu-link">
-          <a href="/competences" className="link">
+          <NavLink to="/competences" className="link">
             compétences
-          </a>
+          </NavLink>
         </li>
         <li className="menu-link">
-          <a href="/contact" className="link">
+          <NavLink to="/contact" className="link">
             contact
-          </a>
+          </NavLink>
         </li>
       </ul>
 
