@@ -13,7 +13,7 @@ const Triangle = () => {
       <path
         d="M7.21703 22.4771L13.2847 5.68949L25.6559 18.5578L7.21703 22.4771Z"
         stroke="#09C66B"
-        stroke-width="3"
+        strokeWidth="3"
       />
     </svg>
   );

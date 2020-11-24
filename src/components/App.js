@@ -4,6 +4,8 @@ import Header from "./common/Header";
 import Navbar from "./common/Navbar";
 import Contact from "./contact/Contact";
 import Portfolio from "./portfolio/Portfolio";
+import Skills from "./skills/Skills";
+import Page404 from "./404/Page404";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 export default class App extends Component {
@@ -21,9 +23,10 @@ export default class App extends Component {
 
           <Switch>
             <Route exact component={Home} path="/" />
-            <Route component={Contact} path="/contact" />
             <Route component={Portfolio} path="/portfolio" />
+            <Route component={Skills} path="/competences" />
             <Route component={Contact} path="/contact" />
+            <Route component={Page404} path="/*" />
           </Switch>
         </div>
       </Router>

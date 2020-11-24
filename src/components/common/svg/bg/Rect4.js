@@ -18,7 +18,7 @@ const Rect4 = () => {
         rx="5"
         transform="rotate(-6 0.715088 3.48236)"
         fill="#02FF3A"
-        fill-opacity="0.5"
+        fillOpacity="0.5"
       />
     </svg>
   );

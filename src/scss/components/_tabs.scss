@@ -1,0 +1,47 @@
+.my-skills {
+    display: flex;
+    width: 100%;
+    height: 40rem;
+
+    .tabs {
+        background-color: $blue;
+        flex: 1;
+
+        .tab {
+            padding: $ml-size $l-size;
+            font-weight: bold;
+            transition: .3s;
+
+            &.active {
+                background-color: $dk-gray;
+            }
+
+            &:hover {
+                background-color: $dk-gray;
+            }
+        }
+    }
+
+    .tab-content {
+        flex: 1;
+        padding: $l-size;
+        background-color: $dk-gray;
+
+        .tab-text {
+            margin-bottom: $l-size;
+        }
+    }
+    .icon-list {
+       
+        .icon-techno {
+            margin-right: 2rem;
+        }
+    }
+
+}
+
+@media (max-width:800px) {
+    .my-skills {
+        display: none;
+    }
+}
