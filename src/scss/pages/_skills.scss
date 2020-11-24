@@ -1,4 +1,6 @@
 .skills {
+    min-height: 100vh;
+    
     &-text {
        margin-top: 10rem;
        
@@ -13,12 +15,38 @@
         display: inline-block;
 
     }
-}
 
-@media (max-width:700px) {
-    .icon-techno {
-        .popover {
-            display: none;
-        }
+    .my-skills-accordions {
+        display: none ;
     }
 }
+
+@media (max-width:800px) {
+
+    .skills {
+        margin-bottom: 15rem;
+        &-text {
+            margin-top: 5rem;
+        }
+
+        .icon-techno {
+            .popover {
+                display: none;
+            }
+        }
+
+        .my-skills {
+            display: none;
+        }
+
+        .my-skills-accordions {
+            display: block ;
+        }
+       
+    }
+    
+    
+}
+
+
+

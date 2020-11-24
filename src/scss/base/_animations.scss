@@ -1,19 +1,44 @@
-@keyframes move-top {
-    0% {
-        transform: translateY(150%);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateY(0);
-    }
-}
-
 .move-top {
     animation: move-top 1s ease 1s;
     animation-fill-mode: backwards;
     display:inline-block;
 
+}
+
+.move-bottom {
+    animation: move-bottom 1s ease;
+    animation-fill-mode: backwards;
+    display:inline-block;
+}
+
+.shake {
+    position: absolute;
+    animation: shake 2s infinite alternate ;
+    z-index: -1;
+    transition: .3s;
+    transform: scale(1.2);
+
+}
+
+.move-left {
+    animation: move-left 1s;
+}
+
+@keyframes shake {
+    
+    100%{
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes move-left {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
 
 @keyframes move-bottom {
@@ -27,37 +52,13 @@
     }
 }
 
-.move-bottom {
-    animation: move-bottom 1s ease;
-    animation-fill-mode: backwards;
-    display:inline-block;
-}
-
-@keyframes shake {
-    
-    100%{
-        transform: translateY(-8px);
-    }
-}
-
-.shake {
-    position: absolute;
-    animation: shake 2s infinite alternate ;
-    z-index: -1;
-    transition: .3s;
-
-}
-
-@keyframes move-left {
+@keyframes move-top {
     0% {
-        transform: translateX(100%);
+        transform: translateY(150%);
+        opacity: 0;
     }
 
     100% {
-        transform: translateX(0);
+        transform: translateY(0);
     }
-}
-
-.move-left {
-    animation: move-left 1s;
 }

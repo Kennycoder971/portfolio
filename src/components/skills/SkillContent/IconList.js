@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import tabsContent from "./tabsContent";
-import Popover from "../common/Popover";
+import Popover from "../../common/Popover";
 import { IconContext } from "react-icons";
-import LoadingAnimation from "../common/LoadingAnimation";
+import LoadingAnimation from "../../common/LoadingAnimation";
 
 export default function IconList({ currentTab }) {
   const [currentHoveredIcon, setIconHovered] = useState(null);

@@ -1,0 +1,49 @@
+.accordion {
+    
+    &-title {
+        display: flex;
+        justify-content: space-between;
+        padding: $m-size;
+        background-color: $blue;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            width: 0; 
+            height: 0; 
+            border-left: 1rem solid transparent;
+            border-right: 1rem solid transparent;
+            bottom: 0;
+            left: 1.2rem;
+            border-top: 1rem solid $blue;
+            transform: translateY(100%);
+            display: none;
+        }
+
+        &.active {
+            &:after {
+                display: block;
+            }
+        }
+
+        span {
+            display: inline-block;
+        }
+    }
+
+    &-content {
+        padding: $s-size;
+        background-color: $dk-gray;
+        min-height: 15rem;
+        &-paragraph {
+            margin-bottom: $ml-size;
+        }
+
+        .icon-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
+            margin-bottom: $m-size;
+        }
+    }
+}

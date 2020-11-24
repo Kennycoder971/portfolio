@@ -17,7 +17,7 @@ import {
 import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
 import { DiCss3, DiGit } from "react-icons/di";
 
-const tabs = [
+const tabsContent = [
   {
     title: "Design",
     content:
@@ -52,7 +52,7 @@ const tabs = [
         normalLogo: <DiCss3 />,
         hoverLogo: <DiCss3 color="#106DB5" />,
         message:
-          "Css permet de changer l’apparence des éléments HTLM des pages (les titres, le corps du texte, les puces etc..",
+          "Css permet de changer l’apparence des éléments HTLM des pages (les titres, le corps du texte, les puces etc...)",
       },
       {
         normalLogo: <FaSass />,
@@ -70,7 +70,7 @@ const tabs = [
         normalLogo: <FaReact />,
         hoverLogo: <FaReact color="#5ED3F4" />,
         message:
-          "React est une bibliothèque JavaScript libre développée par Facebook depuis 2013. Son but principal est de faciliter la création d'application web monopage, via la création de composants",
+          "React est une bibliothèque JavaScript libre développée par Facebook depuis 2013. Son but principal est de faciliter la création d'application web monopage, via la création de composants.",
       },
       {
         normalLogo: <SiGatsby />,
@@ -91,7 +91,7 @@ const tabs = [
   {
     title: "Développement backend",
     content:
-      "Je pense me lancer vers le backend dans peut de temps. en attendant, voilà la liste que j'ai en tête pour le moment.",
+      "Je pense me lancer vers le backend dans peut de temps mais je compte faire du frontend une spécialité. En attendant, voilà la liste que j'ai en tête pour le moment.",
     icons: [
       {
         normalLogo: <FaNodeJs />,
@@ -149,4 +149,4 @@ const tabs = [
   },
 ];
 
-export default tabs;
+export default tabsContent;
