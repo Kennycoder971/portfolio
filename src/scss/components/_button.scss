@@ -36,15 +36,43 @@
         z-index: 1;
 
         &:after {
-            content: '';
-            
             background-color: $dk-gray;
-            z-index: -1;
             transform-origin:0 100% ;
             transform: scaleY(0);
         }
 
         &:hover {
+            &::after {
+                transform: scaleY(1);
+            }
+        }
+    }
+
+
+    &-shadow {
+        box-shadow:0 4px 10px rgba(#000000, $alpha: 4.0) ;
+
+        &:hover {
+            box-shadow:0 8px 15px rgba(#000000, $alpha: 4.0) ;
+        }
+    }
+
+    &-blue-to-yellow {
+        border-radius: 3px;
+        background-color: $blue;
+        padding: $s-size $l-size;
+        z-index: 1;
+
+        &::after {
+            background-color: $yellow;
+            transform-origin:0 100% ;
+            transform: scaleY(0);
+            border-radius: 3px;
+        }
+
+        &:hover {
+            color: $dk-gray;
+            
             &::after {
                 transform: scaleY(1);
             }

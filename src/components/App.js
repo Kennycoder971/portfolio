@@ -6,6 +6,7 @@ import Contact from "./contact/Contact";
 import Portfolio from "./portfolio/Portfolio";
 import Skills from "./skills/Skills";
 import Page404 from "./404/Page404";
+import SpotySound from "./portfolio/projects/SpotySound";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 export default class App extends Component {
@@ -23,7 +24,8 @@ export default class App extends Component {
 
           <Switch>
             <Route exact component={Home} path="/" />
-            <Route component={Portfolio} path="/portfolio" />
+            <Route exact component={Portfolio} path="/portfolio" />
+            <Route component={SpotySound} path="/portfolio/spotysound" />
             <Route component={Skills} path="/competences" />
             <Route component={Contact} path="/contact" />
             <Route component={Page404} path="/*" />

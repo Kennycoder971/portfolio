@@ -27,7 +27,7 @@ export default function IconList({ currentTab }) {
                 <Popover message={icon.message}>
                   {icon.soon && (
                     <div className="learn-soon">
-                      <p className="blue-text ">Pour bientôt</p>
+                      <p className="yellow-text ">Pour bientôt...</p>
                       <LoadingAnimation />
                     </div>
                   )}

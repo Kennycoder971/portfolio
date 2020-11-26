@@ -8,7 +8,7 @@ export default function MySkillsAccordion() {
     <div className="my-skills-accordions">
       {tabsContent.map((tab, index) => {
         return (
-          <Accordion title={tab.title} content={tab.content}>
+          <Accordion title={tab.title} content={tab.content} key={index}>
             <IconList currentTab={index} />
           </Accordion>
         );

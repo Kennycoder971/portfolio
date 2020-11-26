@@ -1,5 +1,5 @@
 .move-top {
-    animation: move-top 1s ease 1s;
+    animation: move-top .7s ease .7s;
     animation-fill-mode: backwards;
     display:inline-block;
 
@@ -22,6 +22,10 @@
 
 .move-left {
     animation: move-left 1s;
+}
+
+.move-left {
+    animation: move-left .5s;
 }
 
 @keyframes shake {
@@ -62,3 +66,5 @@
         transform: translateY(0);
     }
 }
+
+

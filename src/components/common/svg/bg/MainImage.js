@@ -11,23 +11,23 @@ export default function MainImage() {
       <path
         d="M317.894 92.5L175 340L32.1058 92.5L317.894 92.5Z"
         stroke="url(#paint0_linear)"
-        stroke-width="10"
+        strokeWidth="10"
       />
-      <circle cx="69" cy="170" r="5" fill="#02FF3A" fill-opacity="0.5" />
+      <circle cx="69" cy="170" r="5" fill="#02FF3A" fillOpacity="0.5" />
       <rect
         x="65"
         y="55"
         width="220"
         height="240"
         stroke="url(#paint1_linear)"
-        stroke-width="10"
+        strokeWidth="10"
       />
       <circle
         cx="276"
         cy="81"
         r="70"
         stroke="url(#paint2_linear)"
-        stroke-width="10"
+        strokeWidth="10"
       />
       <defs>
         <linearGradient
@@ -38,8 +38,8 @@ export default function MainImage() {
           y2="-8.77678e-06"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#00A1ED" />
-          <stop offset="1" stop-color="#00537A" stop-opacity="0" />
+          <stop stopColor="#00A1ED" />
+          <stop offset="1" stopColor="#00537A" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear"
@@ -49,8 +49,8 @@ export default function MainImage() {
           y2="300"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#09C66B" />
-          <stop offset="1" stop-color="#045324" />
+          <stop stopColor="#09C66B" />
+          <stop offset="1" stopColor="#045324" />
         </linearGradient>
         <linearGradient
           id="paint2_linear"
@@ -60,8 +60,8 @@ export default function MainImage() {
           y2="156"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F5A200" />
-          <stop offset="1" stop-color="#F55800" />
+          <stop stopColor="#F5A200" />
+          <stop offset="1" stopColor="#F55800" />
         </linearGradient>
       </defs>
     </svg>

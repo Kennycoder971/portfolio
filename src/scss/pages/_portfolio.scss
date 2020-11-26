@@ -1,0 +1,9 @@
+.porfolio {
+    min-height: 100vh;
+}
+
+@media (max-width:800px) {
+    .porfolio {
+        margin-bottom: 15rem;
+    }
+}
