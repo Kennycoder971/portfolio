@@ -7,12 +7,10 @@ export default function Skills() {
     <main className="skills">
       <div className="skills-text">
         <h1 className="skills-title">
-          Un bon <span className="green-text">développeur</span> se doit de
-          rester à jour, <br /> voilà les{" "}
-          <span className="blue-text"> compétences</span> que j'ai acquises
-          <br />
-          et que je compte &nbsp;
-          <span className="yellow-text">apprendre.</span>
+          Un aperçu des <span className="green-text"> compétences</span> que
+          j'ai acquises <br />
+          et dans lesquelles je compte{" "}
+          <span className="yellow-text">m'investir.</span>
         </h1>
       </div>
       <SkillsContentManager />

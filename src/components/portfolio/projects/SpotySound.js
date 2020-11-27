@@ -26,9 +26,9 @@ const SpotySound = () => {
         <h2 className="project-title-xl">Pourquoi avoir créé ce projet ?</h2>
         <p>
           C'est l'une des premières applications que j'ai créé avec React.js
-          donc j'ai voulu me challenger un peu. Aussi, je voulais un projet
-          assez simple et joli que je pourrais mettre sur mon portfolio. J'ai
-          utilisé des musiques du site{" "}
+          donc j'ai voulu sortir de ma zone de confort. Aussi, je voulais un
+          projet assez simple mais pas trop que je pourrais mettre sur mon
+          portfolio. J'ai utilisé des musiques du site{" "}
           <a
             href="https://chillhop.com/"
             className="external-link"
@@ -52,8 +52,8 @@ const SpotySound = () => {
         <div className="text-project thin-container">
           <h2 className="project-title-xl">Ce que j'ai appris</h2>
           <p>
-            C'était la première fois que je travaillais avec des audios donc il
-            m'a fallu utiliser avec des évènements comme: onLoadedMetadata,
+            C'est mon premier vrai projet avec des audios donc il m'a fallu
+            apprendre à utiliser des évènements comme: onLoadedMetadata,
             onTimeUpdate, onEnded, etc. J'ai aussi appris à gérer le caractère
             asynchrone des lifecycle methods (méthodes de cycle de vie) de React
             en utilisant async-await sur certaines fonctions.

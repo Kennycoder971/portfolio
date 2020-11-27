@@ -21,7 +21,7 @@ const tabsContent = [
   {
     title: "Design",
     content:
-      "Je suis capable de faire des maquettes avec des designs à qui représentent l'image des entreprises ainsi que les émotions qu'ils veulent transmettre ",
+      "Je suis capable de faire des maquettes avec des designs à qui représentent l'image des entreprises ainsi que les émotions qu'elles veulent transmettre ",
     icons: [
       {
         normalLogo: <FaFigma />,
@@ -40,7 +40,7 @@ const tabsContent = [
   {
     title: "Développement frontend",
     content:
-      "Je sais créer des sites du côté frontend en utilisant HTML, Css et Javascript. Réact me permet de mieux organiser mon code en découpant ses différentes parties en composants. ",
+      "Je peux aussi créer des sites du côté frontend en utilisant HTML, Css et Javascript. React me permet de mieux organiser mon code en découpant ses différentes parties en composants. ",
     icons: [
       {
         normalLogo: <AiFillHtml5 />,
