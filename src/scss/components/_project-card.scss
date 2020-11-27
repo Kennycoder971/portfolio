@@ -28,7 +28,7 @@
         }
 
         .project-live {
-            font-size: calc($m-size + .4rem);
+            font-size:$m-size;
             font-weight: normal;
             position: relative;
             margin: $xs-size 0 $ml-size 0;
