@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { withRouter } from "react-router-dom";
 
 class Form extends Component {
   state = {
@@ -100,7 +99,7 @@ class Form extends Component {
   render() {
     return (
       <form
-        action="/"
+        action="/contact"
         className="contact-form"
         onSubmit={this.onFormSubmit}
         name="contact"
@@ -177,4 +176,4 @@ class Form extends Component {
   }
 }
 
-export default withRouter(Form);
+export default Form;
