@@ -1,11 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-export default function Header({ onClickOpenNav }) {
+export default function Header({ setIsNavOpen }) {
   return (
     <header className="header move-bottom">
       <div className="logo">
-        <NavLink to="/">DK</NavLink>
+        <NavLink to="/" className="logo">
+          DK
+        </NavLink>
       </div>
       <ul className="menu">
         <li className="menu-link">
@@ -25,7 +27,7 @@ export default function Header({ onClickOpenNav }) {
         </li>
       </ul>
 
-      <div className="toggle-btn" onClick={onClickOpenNav}>
+      <div className="toggle-btn" onClick={() => setIsNavOpen(true)}>
         <div className="line-1 line"></div>
         <div className="line-2 line"></div>
         <div className="line-3 line"></div>

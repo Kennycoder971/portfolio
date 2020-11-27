@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className="responsive-nav active  move-left delay-1">
+    <nav className="responsive-nav">
       <ul className="responsive-nav-menu">
         <li className="responsive-menu-item">
           <NavLink to="/portfolio" className="responsive-menu-link">

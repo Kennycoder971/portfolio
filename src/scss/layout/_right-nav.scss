@@ -1,0 +1,62 @@
+.right-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: calc(100vh - 70px);
+    background-color: $white;
+    z-index: 100;
+    padding: $l-size 0;
+    display: none;
+    color: $dk-gray;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: .3s ease;
+
+    &.active {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    &-menu {
+        margin-top: 10rem;
+
+        &-link {
+
+            a {
+                padding: $ml-size $xxl-size;
+                font-weight: bold;
+                font-size: 2rem;
+                display: block;
+                text-align: right;
+                transition: .3s;
+
+                &:hover {
+                    background-color: lighten($blue, 35%);
+                }
+                
+
+            }
+        }
+    }
+
+    a {
+        color: $dk-gray;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 3rem;
+        cursor: pointer;
+
+    }
+}
+
+@media (max-width:768px) {
+
+    .right-nav {
+        display: block;
+    }
+}

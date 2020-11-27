@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Home from "./home/Home";
 import Header from "./common/Header";
 import Navbar from "./common/Navbar";
+import RightNav from "./common/RightNav";
 import Contact from "./contact/Contact";
 import Portfolio from "./portfolio/Portfolio";
 import Skills from "./skills/Skills";
@@ -12,15 +13,19 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 export default class App extends Component {
   state = { isNavOpen: false };
 
-  onClickOpenNav = () => {
-    this.setState((prevState) => ({ isNavOpen: !prevState.isNavOpen }));
+  setIsNavOpen = (value) => {
+    this.setState({ isNavOpen: value });
   };
   render() {
     return (
       <Router>
         <div className="container">
-          <Header onClickOpenNav={this.onClickOpenNav} />
+          <Header setIsNavOpen={this.setIsNavOpen} />
           <Navbar />
+          <RightNav
+            setIsNavOpen={this.setIsNavOpen}
+            isNavOpen={this.state.isNavOpen}
+          />
 
           <Switch>
             <Route exact component={Home} path="/" />

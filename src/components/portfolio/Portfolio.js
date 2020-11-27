@@ -1,15 +1,7 @@
 import React from "react";
 import SVGBG from "../common/svg/bg/SVGBG";
 import ProjectCard from "./ProjectCard";
-
-const projects = [
-  {
-    title: "Music app",
-    imgSrc: process.env.PUBLIC_URL + "./images/SpotySound.png",
-    projectUrl: "/portfolio/spotysound",
-    projectLiveUrl: "https://affectionate-mccarthy-397e31.netlify.app/",
-  },
-];
+import projectData from "./projectData";
 
 export default function Portfolio() {
   return (
@@ -22,7 +14,7 @@ export default function Portfolio() {
       </h1>
 
       <div className="projects-list">
-        {projects.map((project, index) => {
+        {projectData.map((project, index) => {
           return (
             <ProjectCard
               title={project.title}

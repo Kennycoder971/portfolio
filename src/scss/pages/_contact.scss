@@ -1,0 +1,70 @@
+.contact {
+   min-height: 80vh;
+   margin-bottom: 15rem;
+
+
+   h1 {
+       text-align: center;
+   }
+   .contact-form {
+
+    h3 {
+        margin-bottom: $s-size;
+        letter-spacing: 1px;
+        font-size: $ml-size;
+        font-weight: normal;
+    }
+       margin: $m-size auto;
+       max-width: 500px;
+       background-color: $blue;
+       padding: $xl-size  $l-size;
+       
+       .field {
+           margin-bottom: $xs-size;
+           .input {
+            
+            box-shadow:0 2px 5px rgba(#000000, $alpha: .4) ;
+               
+
+            &.error-input {
+                border: 2px solid red;
+            }
+               &:focus {
+                box-shadow:0 4px 35px rgba(#000000, $alpha: .4) ;
+               }
+           }
+       }
+
+       .error {
+           
+           font-style: italic;
+       }
+
+       .btn {
+           margin-top: $xs-size;
+       }
+   }
+
+   .social {
+       text-align: center;
+       margin-top: $xl-size;
+       
+       a {
+           &:not(:last-child) {
+               margin-right: $ml-size;
+           }
+       }
+   }
+}
+
+
+
+@media screen and (max-width:500px) {
+    .contact {
+
+        h1 {
+           text-align: left;
+           font-size: 2.6rem;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.input {
+
+    padding: $m-size $s-size;
+    width: 100%;
+    margin-bottom: $m-size;
+    border-radius: 3px;
+    border: 0;
+    outline: none;
+
+
+    &::placeholder {
+        
+    }
+}
+

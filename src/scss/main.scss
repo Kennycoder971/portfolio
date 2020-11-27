@@ -11,11 +11,16 @@
 @import './components/popover';
 @import './components/accordion';
 @import './components/project-card';
+@import './components/external_link';
+@import './components/input';
 
 @import './layout/header';
 @import './layout/responsive-navbar';
+@import './layout/right-nav';
 @import './layout/svg-bg';
 
 @import './pages/home';
 @import './pages/portfolio';
 @import './pages/skills';
+@import './pages/projects/spotysound.scss';
+@import './pages/contact';

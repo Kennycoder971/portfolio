@@ -1,0 +1,61 @@
+.spotysound {
+    min-height: 80vh;
+    margin-bottom: 15rem;
+
+    .work-project-title {
+        font-weight: normal;
+        font-size: $xl-size;
+        margin: $xxl-size 0;
+    }
+
+    .project-images {
+        display: flex;
+        justify-content: center;
+        margin-top: $xl-size;
+
+        .img-container {
+
+            img {
+                width: 100%;
+            }
+
+            &:nth-child(1) {
+                margin-right: 4rem;
+            }
+        }
+    }
+
+    .what-i-learned {
+        margin: $xxl-size 0;
+
+        .img-container {
+            width: 90%;
+            margin: 0 auto;
+
+            img {
+                width: 100%;
+            }
+        }
+        
+        a {
+            margin-top: $m-size;
+        }
+    }
+
+}
+
+
+
+
+@media screen and (max-width:768px) {
+
+    .spotysound {
+
+        .project-images {
+
+            .img-container {
+                width: 50%;
+            }
+        }
+    }
+}

@@ -2,6 +2,21 @@
     min-height: 100vh;
 }
 
+.text-project {
+    margin-top: $xxl-size;
+    
+
+    p {
+        margin: 1rem 0;
+        opacity: .9;
+        line-height: 32px;
+        font-size: 1.8rem;
+    }
+
+   
+}
+
+
 @media (max-width:800px) {
     .porfolio {
         margin-bottom: 15rem;

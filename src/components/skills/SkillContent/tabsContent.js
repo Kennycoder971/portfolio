@@ -40,7 +40,7 @@ const tabsContent = [
   {
     title: "Développement frontend",
     content:
-      "Je suis sais de créer des sites du côté frontend en utilisant HTML, Css et Javascript. Réact me permet de mieux organiser mon code en découpant ses différentes parties en composants. ",
+      "Je sais créer des sites du côté frontend en utilisant HTML, Css et Javascript. Réact me permet de mieux organiser mon code en découpant ses différentes parties en composants. ",
     icons: [
       {
         normalLogo: <AiFillHtml5 />,
@@ -91,7 +91,7 @@ const tabsContent = [
   {
     title: "Développement backend",
     content:
-      "Je pense me lancer vers le backend dans peut de temps mais je compte faire du frontend une spécialité. En attendant, voilà la liste que j'ai en tête pour le moment.",
+      "Je pense me lancer vers le backend dans peu de temps mais je compte faire du frontend une spécialité. En attendant, voilà la liste que j'ai en tête pour le moment.",
     icons: [
       {
         normalLogo: <FaNodeJs />,
@@ -132,7 +132,8 @@ const tabsContent = [
   },
   {
     title: "Général",
-    content: "contend général",
+    content:
+      "Les outils de versionnage tels que Git et Github sont devenus incontournables pour tous les développeurs et je les utilise dans tous mes projets.",
     icons: [
       {
         normalLogo: <DiGit />,
