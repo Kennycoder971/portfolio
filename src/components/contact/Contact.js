@@ -1,6 +1,5 @@
 import React from "react";
 import Form from "./Form";
-import { FaFacebookF } from "react-icons/fa";
 import SVGBG from "../common/svg/bg/SVGBG";
 
 export default function Contact() {
@@ -19,14 +18,7 @@ export default function Contact() {
           >
             in
           </a>
-          <a
-            href="https://www.facebook.com/seraph.delver"
-            className="square-link linkedin"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaFacebookF />
-          </a>
+
           <a
             href="mailto:kennycoder971@gmail.com"
             className="square-link linkedin"
