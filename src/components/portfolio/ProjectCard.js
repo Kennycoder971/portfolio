@@ -18,7 +18,7 @@ export default function Project({ title, projectLiveUrl, imgSrc, projectUrl }) {
           target="_blank"
           rel="noreferrer"
         >
-          Voile le projet
+          Voir le projet
         </a>
 
         <Link className=" btn btn-shadow btn-blue-to-yellow" to={projectUrl}>
