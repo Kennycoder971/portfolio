@@ -5,7 +5,7 @@
     width: 70%;
     height: calc(100vh - 70px);
     background-color: $white;
-    z-index: 100;
+    z-index: 9;
     padding: $l-size 0;
     display: none;
     color: $dk-gray;
@@ -60,3 +60,11 @@
         display: block;
     }
 }
+
+@media (orientation: landscape) {
+    .right-nav {
+        &-menu {
+            margin-top:1rem;
+        }
+    }
+  }
