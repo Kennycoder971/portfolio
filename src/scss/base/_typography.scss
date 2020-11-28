@@ -37,3 +37,14 @@ body {
     font-size: $xl-size;
 }
 
+
+@media (max-width:500px) {
+    .project-title-xl {
+        font-size: $xl-size;
+    }
+    
+    .project-title-xl {
+        font-size: $l-size;
+    }
+    
+}
