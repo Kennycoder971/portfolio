@@ -1,0 +1,50 @@
+.page-404 {
+    display: flex;
+    min-height: 80vh;
+    justify-content: space-between;
+    align-items: center;
+    
+    .text-404 {
+        margin-bottom: $xxl-size;
+        flex: 1;
+
+        h2 {
+            font-size: $xl-size;
+            margin-bottom: $l-size;
+            font-weight: normal;
+        }
+    }
+
+    .img-container {
+        flex: 1;
+        svg {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width:800px) {
+    .page-404 {
+        .text-404 {
+            h2 {
+                font-size: $l-size;
+            }
+        }
+    }
+}
+
+
+@media (max-width:600px) {
+    .page-404 {
+        display: block;
+        margin-top: $l-size;
+        min-height: 90vh;
+        margin-bottom: 10rem;
+        
+        .text-404 {
+            margin-bottom: $m-size;
+            height: auto;
+           
+        }
+    }
+}

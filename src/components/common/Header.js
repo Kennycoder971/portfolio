@@ -6,7 +6,10 @@ export default function Header({ setIsNavOpen }) {
     <header className="header move-bottom">
       <div className="logo">
         <NavLink to="/" className="logo">
-          DK
+          <img
+            src={process.env.PUBLIC_URL + "./images/icons/Logo.svg"}
+            alt="Logo"
+          />
         </NavLink>
       </div>
       <ul className="menu">
